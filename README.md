@@ -1,9 +1,16 @@
 # runview
 How to preview Stata help files from VSCode.
 
+## Ackowledgements
+
 ## Setup 
 
-### runview setup
+The setup process takes 5/10 minutes. In general, this process can be divided into two steps:
+1. [runview setup](#setting-up-runview)
+2. [VSCode setup](#setting-up-vscode)
+
+### Setting up runview
+
 1. Download the latest version of `runview` ([1.0.0](https://github.com/DiegoCiccia/runview/raw/main/dist/1.0.0.zip)).
 2. Unzip it. For what follows, we assume that the directory of the unzipped file is "C:\Users\User\runview", where User is the name of the PC (that can be retrieved from any directory).
 3. Open "runview.ini" as a text file and replace the placeholders in the next two lines:
@@ -38,16 +45,6 @@ keypause = 1
 
 To double-check the setup of runview, open a command prompt, type "runview" and press enter. If the command prompts an error window, it means that it has been installed correctly (we run it without any argument!). If, instead, the result is something in the line of "runview is not recognized as a command" and no external window is prompted, then something went wrong in the installation process.
 
-### VSCode integration
+### Setting up VSCode
 
 You can download VSCode from [here](https://code.visualstudio.com/). After you install the software, run it and locate the Extension section on the left vertical panel (or just press CTRL + Shift + X). From there, search "Code runner" and press "Install". We will use this extension to activate runview.
-
-### Integrate runview in VSCode
-
-
-
-
-
-
-
-
