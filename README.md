@@ -53,7 +53,7 @@ To double-check the setup of runview, open a command prompt, type "runview" and 
 
 ### Setting up VSCode
 
-You can download VSCode from [here](https://code.visualstudio.com/). After you install the software, run it and locate the Extension section on the left vertical panel (or just press CTRL + Shift + X). From there, search "Code runner" and press "Install". We will use this extension to activate runview.
+You can download VSCode from [here](https://code.visualstudio.com/). After you install the software, run it and locate the Extension section on the left vertical panel (or just press CTRL + Shift + X). From there, search "Code runner" and click on "Install". We will use this extension to activate runview.
 
 Go "File -> Preferences -> Settings". Browse "Executor Map By File Extension", locate the "Executor Map By File Extension" box in the results (it should be the first result) and click on "Edit in settings.json". A json file should appear and you will be prompted to the section of the json file with the command prompt lines by file extensions. Namely, you should be looking at something like this:
 ```json
