@@ -1,6 +1,8 @@
 # runview
 Previewing Stata help files from VSCode.
 
+![view](https://github.com/DiegoCiccia/runview/assets/71022390/50d7da9e-5128-4cf8-ac24-fa88aa30bb72)
+
 ## Ackowledgements
 
 `runview` is an extension of `rundo` and `rundolines` to .sthlp files.
