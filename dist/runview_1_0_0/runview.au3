@@ -1,6 +1,7 @@
-; AutoIt v3 script to run a Stata do-file from an external text editor
-; Version 5.1, 28 June 2017
+; AutoIt v3 script to run a Stata help-file from an external text editor
+; Version 1.0.0, 16 June 2024
 ; Friedrich Huebler, fhuebler@gmail.com, www.huebler.info
+; Diego Ciccia, cicciadiego99@gmail.com
 
 ; Declare variables
 Global $ini, $statapath, $statawin, $statacmd, $dofile, $clippause, $winpause, $keypause

@@ -11,7 +11,7 @@ The setup process takes 5/10 minutes. In general, this process can be divided in
 
 ### Setting up runview
 
-1. Download the latest version of `runview` ([1.0.0](https://github.com/DiegoCiccia/runview/raw/main/dist/runview_1.0.0.zip)).
+1. Download the latest version of `runview` ([1.0.0](https://github.com/DiegoCiccia/runview/raw/main/dist/runview_1_0_0.zip)).
 2. Unzip it. For what follows, we assume that the directory of the unzipped file is "C:\Users\User\runview", where User is the name of the PC (that can be retrieved from any directory).
 3. Open "runview.ini" as a text file and replace the placeholders in the first two lines:
 
