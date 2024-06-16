@@ -1,7 +1,11 @@
 # runview
-How to preview Stata help files from VSCode.
+Previewing Stata help files from VSCode.
 
 ## Ackowledgements
+
+`runview` is an extension of `rundo` and `rundolines` to .sthlp files.
+I am deeply thankful to Friedrich Huebler for his work on these projects. 
+Check out [his website](https://huebler.blogspot.com/2008/04/stata.html) for FAQs and other information about the original programs. 
 
 ## Setup 
 
@@ -11,7 +15,7 @@ The setup process takes 5/10 minutes. In general, this process can be divided in
 
 ### Setting up runview
 
-1. Download the latest version of `runview` ([1.0.0](https://github.com/DiegoCiccia/runview/raw/main/dist/runview_1_0_0.zip)).
+1. Download the latest version of `runview` ([1.0.0](https://github.com/DiegoCiccia/runview/raw/main/dist/runview_1.0.0.zip)).
 2. Unzip it. For what follows, we assume that the directory of the unzipped file is "C:\Users\User\runview", where User is the name of the PC (that can be retrieved from any directory).
 3. Open "runview.ini" as a text file and replace the placeholders in the first two lines:
 
@@ -89,6 +93,6 @@ The block above will now look like this:
 ```
 
 Close and reopen VSCode. Now, `runview` should be working inside VSCode. 
-Open a .sthlp file inside VSCode (right click -> Open with... -> VSCode, or make it the default program for .sthlp files).
+Open a .sthlp file inside VSCode (right click on the file -> Open with... -> VSCode, or make it the default program for .sthlp files).
 Press `CTRL + ALT + N`. A Stata Window will pop open and you will see the .sthlp file as if it was loaded with the `help` function.
 
