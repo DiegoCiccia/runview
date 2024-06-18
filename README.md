@@ -46,7 +46,7 @@ keypause = 1
     + Click on "Environment Variables..." -> 
     + Double click on "Path" in User Variables box -> 
     + Click on "New" -> 
-    + Copy and Paste the directory where runview has been unzipped (in our example, C:\Users\User\runview) ->
+    + Copy and Paste the directory where runview has been unzipped (in our example, C:\Users\User\runview_1.0.0\runview) ->
     + Click OK until you exit the window
 
 To double-check the setup of runview, open a command prompt, type "runview" and press enter. If the command prompts an error window, it means that it has been installed correctly (we are running runview it without any file argument!). If, instead, the result is something in the line of "runview is not recognized as a command" and no external window is prompted, then something went wrong in the installation process.
